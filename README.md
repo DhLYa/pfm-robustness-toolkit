@@ -360,8 +360,7 @@ These are kept so results match the dissertation; fixing them will change the nu
 ## Acknowledgements and licence
 
 Based on [REET](https://github.com/alexjfoote/reetoolbox) by Alex Foote et al., licensed
-under the Apache License 2.0. This repository contains modifications and additions by Dhyey
-Yajnik and is released under the same licence (see `LICENSE`). The differentiable JPEG code
+under the Apache License 2.0. This repository contains modifications and additions and is released under the same licence (see `LICENSE`). The differentiable JPEG code
 in `pfm_robustness/reet/diffjpeg.py` is from [DiffJPEG](https://github.com/mlomnitz/DiffJPEG)
 under the MIT licence. Datasets and model weights are subject to their own licences.
 
