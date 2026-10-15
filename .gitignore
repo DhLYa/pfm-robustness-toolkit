@@ -1,0 +1,20 @@
+# Large local data, checkpoints and results (see README for the expected layout)
+Data/
+data/
+Models/
+Stats/
+
+# Dissertation report (>100 MB; hosted separately, see README)
+*.pdf
+
+# Third-party clone (see README: git clone EXAONEPath into third_party/)
+third_party/EXAONEPath/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/

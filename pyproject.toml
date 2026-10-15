@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfm-robustness-toolkit"
+version = "0.2.0"
+description = "Robustness benchmarking of pathology foundation models under clinically realistic perturbations (built on REET)."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Dhyey Yajnik" }]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "torchvision",
+    "timm>=1.0",
+    "transformers>=4.40",
+    "huggingface_hub",
+    "numpy>=2.0",          # np.trapezoid
+    "pandas",
+    "openpyxl",
+    "scikit-learn>=1.5",   # TSNE(max_iter=...)
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "Pillow",
+    "h5py",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter"]
+
+[tool.setuptools.packages.find]
+include = ["pfm_robustness*"]
